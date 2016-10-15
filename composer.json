@@ -1,0 +1,30 @@
+{
+  "name": "wiwatsrt/flarum-ext-slug-thai",
+  "description": "Fix slug in Thai language!",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wiwat Srisattha",
+      "email": "wiwat@srisattha.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta.5"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Fix slug in Thai",
+      "icon": {
+        "name": "wrench",
+        "backgroundColor": "#0077C0",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "WiwatSrt\\SlugThai\\": "src/"
+    }
+  }
+}
